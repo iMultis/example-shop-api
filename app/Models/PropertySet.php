@@ -2,10 +2,9 @@
 
 namespace App\Models;
 
-use Illuminate\Database\Eloquent\Model;
 use Illuminate\Database\Eloquent\Relations\HasMany;
 
-class PropertySet extends Model
+class PropertySet extends OwnedModel
 {
     protected $fillable = [
         'name',
